@@ -102,7 +102,7 @@ ol {
 }
 
 /* Section 1-4 text*/
-.title-h2 {
+.text-h2 {
   color: var(--NAVY-BLUE, #2e2f42);
   font-size: 36px;
   font-weight: 700;
