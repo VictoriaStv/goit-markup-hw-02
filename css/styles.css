@@ -94,15 +94,17 @@ ol {
   color: var(--WHITE, #ffffff);
 }
 
+/* 
 .visually-hidden {
   white-space: nowrap;
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+*/
 
-/* Section 1-4 text*/
-.text-h2 {
+/* Section 2-4 text*/
+.title-h2 {
   color: var(--NAVY-BLUE, #2e2f42);
   font-size: 36px;
   font-weight: 700;
