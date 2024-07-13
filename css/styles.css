@@ -1,5 +1,5 @@
 body {
-  font-family: "Roboto", sans-serif;
+ font-family: "Roboto", sans-serif
   color: #434455;
   font-size: 16px;
   background: #ffffff;
@@ -12,18 +12,6 @@ a {
 ul,
 ol {
   list-style: none;
-}
-
-h3 {
-  color: var(--NAVY-BLUE, #2e2f42);
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 1.2;
-}
-
-p {
-  font-weight: 400;
-  line-height: 1.5;
 }
 
 /*Top line*/
@@ -51,6 +39,7 @@ p {
   color: var(--NAVY-BLUE, #2E2F42);
   font-weight: 500;
   line-height: 1.5;
+  letter-spacing: 0.02em
 }
 
 .nav-link:hover,
@@ -58,14 +47,20 @@ p {
   color: var(--NAVY-BLUE, #404bbf);
 }
 
-.header-address {
+.header-address{
   color: var(--SLATE, #434455);
-  font-weight: 400;
   line-height: 1.5;
+  font-weight: 400;
+ letter-spacing: 0.02em
 }
 
-.header-address:hover,
-.header-address:focus {
+.header-address-text {
+
+  font-style: normal
+}
+
+.header-address-text:hover,
+.header-address-text:focus {
   color: var(--NAVY-BLUE, #404bbf);
 }
 
@@ -80,6 +75,7 @@ p {
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
+  letter-spacing: 0.02em
 }
 
 .hero-btn {
@@ -89,6 +85,7 @@ p {
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
+  font-family: "Roboto", sans-serif
 }
 
 .hero-btn:focus,
@@ -98,7 +95,6 @@ p {
 }
 
 .visually-hidden {
-  position: absolute;
   width: 1px;
   height: 1px;
   margin: -1px;
@@ -110,26 +106,29 @@ p {
   overflow: hidden;
 }
 
-/*team*/
-section h2 {
+/*text*/
+.h2 {
   color: var(--NAVY-BLUE, #2e2f42);
-  text-align: center;
-  font-size: 40px;
-  font-weight: 500;
+  font-size: 36px;
+  font-weight: 700;
   line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: center;
 }
 
-.team-member h3 {
+.h3 {
   color: var(--NAVY-BLUE, #2e2f42);
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 
-.team-member p {
+.p {
   color: var(--SLATE, #434455);
   font-weight: 400;
   line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 /*footer*/
