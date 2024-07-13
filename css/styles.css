@@ -2,26 +2,29 @@ body {
   font-family: "Roboto", sans-serif;
   color: #434455;
   font-size: 16px;
-  font-style: normal;
   letter-spacing: 0.02em;
   background: #ffff;
 }
+
 a {
   text-decoration: none;
 }
+
 ul,
 ol {
   list-style: none;
 }
+
 h3 { 
   color: var(--NAVY-BLUE, #2e2f42);
   font-size: 20px;
   font-weight: 500;
-  line-height: 120%; 
+  line-height: 1.2; 
 }
+
 p{
   font-weight: 400;
-  line-height: 150%;
+  line-height: 1.5;
 }
 
 /*Top line*/
@@ -29,9 +32,8 @@ p{
   color: var(--IRIS, #4D5AE5);
   font-family: "Raleway", sans-serif;
   font-size: 18px;
-  font-style: normal;
   font-weight: 700;
-  line-height: 117%;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
@@ -40,9 +42,8 @@ p{
   color: var(--NAVY-BLUE, #2e2f42);
   font-family: "Raleway", sans-serif;
   font-size: 18px;
-  font-style: normal;
   font-weight: 700;
-  line-height: 117%;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
@@ -50,9 +51,8 @@ p{
 .nav-link {
   color: var(--NAVY-BLUE, #2E2F42);
   /* Body Medium */
-  font-style: normal;
   font-weight: 500;
-  line-height: 150%; 
+  line-height: 1.50; 
 }
 
 .nav-link:hover,
@@ -60,12 +60,11 @@ p{
   color: var(--NAVY-BLUE, #404bbf);
 }
 
-.header-address {
   /* Body */
+.header-address {
   color: var(--SLATE, #434455);
   font-weight: 400;
-  line-height: 150%;
-
+  line-height: 1.50;
 }
 
 .header-address:hover,
@@ -78,27 +77,25 @@ p{
   background: var(--NAVY-BLUE, #2e2f42);
 }
 
+/* Header 1 */
 .hero-title {
-  color: var(--WHITE, #fff);
-  text-align: center;
-
-  /* Header 1 */
   font-size: 56px;
   font-weight: 700;
-  line-height: 107%; 
+  line-height: 1.07; 
+  color: var(--WHITE, #fff);
+  text-align: center;
 }
 
+ /* Button Text */
 .hero-btn {
   background: var(--IRIS, #4D5AE5);
   color: var(--WHITE, #fff);
-
-  /* Button Text */
-
   font-weight: 500;
-  line-height: 150%;
+  line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
 }
+
 .hero-btn:focus,
 .hero-btn:hover {
   background: var(--IRIS, #404BBF);
@@ -118,14 +115,14 @@ p{
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
  /* footer*/
  .footer-logo {
   color: var(--IRIS, #4D5AE5);
   font-family: "Raleway", sans-serif;
   font-size: 18px;
-  font-style: normal;
   font-weight: 700;
-  line-height: 117%;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
@@ -134,15 +131,14 @@ p{
   color: var(--NAVY-BLUE, #F4F4FD);
   font-family: "Raleway", sans-serif;
   font-size: 18px;
-  font-style: normal;
   font-weight: 700;
-  line-height: 117%;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
  .footer-text {
 font-weight: 400;
-line-height: 150%;
+line-height: 1.5;
 color: var(--cloud, #F4F4FD);
  }
 
