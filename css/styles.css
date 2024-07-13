@@ -51,11 +51,11 @@ ol {
   color: var(--SLATE, #434455);
   line-height: 1.5;
   font-weight: 400;
- letter-spacing: 0.02em
+  letter-spacing: 0.02em
 }
 
 .header-address-text {
-
+  color: var(--SLATE, #434455);
   font-style: normal
 }
 
