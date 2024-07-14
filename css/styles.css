@@ -103,8 +103,9 @@ ol {
 }
 */
 
-/* Section 2-4 text*/
-.title-h2 {
+/*Section 2/ Features*/
+
+.s2-title-h2 {
   color: var(--NAVY-BLUE, #2e2f42);
   font-size: 36px;
   font-weight: 700;
@@ -114,7 +115,7 @@ ol {
   text-transform: capitalize
 }
 
-.text-h3 {
+.s2-text-h3 {
   color: var(--NAVY-BLUE, #2e2f42);
   font-size: 20px;
   font-weight: 500;
@@ -122,21 +123,75 @@ ol {
   letter-spacing: 0.02em;
 }
 
-.text-p {
+.s2-text-p {
   color: var(--SLATE, #434455);
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
 
-/* Section 3 text*/
-.section-team {
+/*Section 3/ Team*/
+
+.s3-team {
   background-color: #F4F4FD;
 }
 
-.team-items{
+.s3-items {
   background-color: #FFFFFF;
 }
+
+.s3-title-h2 {
+  color: var(--NAVY-BLUE, #2e2f42);
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.s3-text-h3 {
+  color: var(--NAVY-BLUE, #2e2f42);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.s3-text-p {
+  color: var(--SLATE, #434455);
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+/*Section 4/ Portfolio*/
+
+.s4-title-h2 {
+  color: var(--NAVY-BLUE, #2e2f42);
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize
+}
+
+.s4-text-h3 {
+  color: var(--NAVY-BLUE, #2e2f42);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.s4-text-p {
+  color: var(--SLATE, #434455);
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
 
 /*Footer*/
 .footer-main{
