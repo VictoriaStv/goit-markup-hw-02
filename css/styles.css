@@ -105,7 +105,7 @@ ol {
 
 /*Section 2/ Features*/
 
-.s2-title-h2 {
+.features-title {
   color: var(--NAVY-BLUE, #2e2f42);
   font-size: 36px;
   font-weight: 700;
@@ -115,7 +115,7 @@ ol {
   text-transform: capitalize
 }
 
-.s2-text-h3 {
+.features-text-h {
   color: var(--NAVY-BLUE, #2e2f42);
   font-size: 20px;
   font-weight: 500;
@@ -123,7 +123,7 @@ ol {
   letter-spacing: 0.02em;
 }
 
-.s2-text-p {
+.features-text-p {
   color: var(--SLATE, #434455);
   font-weight: 400;
   line-height: 1.5;
@@ -132,15 +132,15 @@ ol {
 
 /*Section 3/ Team*/
 
-.s3-team {
+.team {
   background-color: #F4F4FD;
 }
 
-.s3-items {
+.team-items {
   background-color: #FFFFFF;
 }
 
-.s3-title-h2 {
+.team-title {
   color: var(--NAVY-BLUE, #2e2f42);
   font-size: 36px;
   font-weight: 700;
@@ -150,7 +150,7 @@ ol {
   text-transform: capitalize;
 }
 
-.s3-text-h3 {
+.team-text-h {
   color: var(--NAVY-BLUE, #2e2f42);
   font-size: 20px;
   font-weight: 500;
@@ -158,7 +158,7 @@ ol {
   letter-spacing: 0.02em;
 }
 
-.s3-text-p {
+.team-text-p {
   color: var(--SLATE, #434455);
   font-weight: 400;
   line-height: 1.5;
@@ -167,7 +167,7 @@ ol {
 
 /*Section 4/ Portfolio*/
 
-.s4-title-h2 {
+.portfolio-title {
   color: var(--NAVY-BLUE, #2e2f42);
   font-size: 36px;
   font-weight: 700;
@@ -177,7 +177,7 @@ ol {
   text-transform: capitalize
 }
 
-.s4-text-h3 {
+.portfolio-text-h {
   color: var(--NAVY-BLUE, #2e2f42);
   font-size: 20px;
   font-weight: 500;
@@ -185,7 +185,7 @@ ol {
   letter-spacing: 0.02em;
 }
 
-.s4-text-p {
+.portfolio-text-p {
   color: var(--SLATE, #434455);
   font-weight: 400;
   line-height: 1.5;
